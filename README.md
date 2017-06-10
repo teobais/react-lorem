@@ -6,6 +6,9 @@
 - Webpack
 - Babel
 
+### Installation
+[![https://nodei.co/npm/react-lorem.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/react-lorem.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-lorem) [![NPM](https://nodei.co/npm-dl/react-lorem.png?months=6&height=2)](https://nodei.co/npm/react-lorem.js)
+
 ### Usage
 
 ```javascript
