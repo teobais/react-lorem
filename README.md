@@ -17,8 +17,7 @@ import Lorem from 'react-lorem/Lorem.jsx';
 
 render(
   <div>
-    <Lorem />
-    <Lorem />
+    <Lorem times={4} />
   </div>,
   document.getElementById('root')
 );
