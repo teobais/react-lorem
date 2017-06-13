@@ -9,6 +9,14 @@
 ### Installation
 [![https://nodei.co/npm/react-lorem.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/react-lorem.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-lorem) [![NPM](https://nodei.co/npm-dl/react-lorem.png?months=6&height=2)](https://nodei.co/npm/react-lorem.js)
 
+### Properties
+
+| Property |      Description      |      Type     | Required |
+|----------|:---------------------:|:-------------:|:--------:|
+| times    | amount of repetitions |     number    |    NO    |
+| color    |       text color      |     string    |    NO    |
+| fontSize |       font size       | string/number |    NO    |
+
 ### Usage
 
 ```javascript
@@ -17,7 +25,9 @@ import Lorem from 'react-lorem/Lorem.jsx';
 
 render(
   <div>
-    <Lorem times={4} />
+    <Lorem times={2} color='#FFAADD' fontSize='small' />
+    <Lorem  color='blue' fontSize={30} />
+    <Lorem  color='rgb(154,67,123)' fontSize='large' />
   </div>,
   document.getElementById('root')
 );
