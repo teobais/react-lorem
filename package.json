@@ -1,6 +1,6 @@
 {
   "name": "react-lorem",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A react.js component that renders Lorem Ipsum text",
   "main": "index.js",
   "scripts": {
