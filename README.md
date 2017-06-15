@@ -25,6 +25,7 @@ import Lorem from 'react-lorem/Lorem.jsx';
 
 render(
   <div>
+    <Lorem />
     <Lorem times={2} color={'#FFAADD'} fontSize={'small'} />
     <Lorem color={'blue'} fontSize={30} />
     <Lorem color={'rgb(154,67,123)'} fontSize={'large'} />
