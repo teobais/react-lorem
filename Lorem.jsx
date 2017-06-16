@@ -24,8 +24,8 @@ export default class Lorem extends Component {
     const color = this.props.color;
     const fontSize = typeof (this.props.fontSize) === 'string' ? fonts[this.props.fontSize] : this.props.fontSize;
     const displayText = [];
-
     for (let t = 0; t < this.props.times; t += 1) {
+      if (this.props.times > 1 && t > 0) displayText.push(<br />);
       displayText.push(
         <div key={t} style={{ color, fontSize }}>
           {loremText}
