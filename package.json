@@ -50,6 +50,7 @@
     "eslint-plugin-react": "^6.8.0",
     "prop-types": "^15.5.10",
     "react-transform-hmr": "^1.0.4",
+    "str8": "^1.0.5",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   }

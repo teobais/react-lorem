@@ -5,7 +5,7 @@ import Lorem from './Lorem';
 render(
   <div>
     <Lorem />
-    <Lorem times={2} color={'#FFAADD'} fontSize={'medium'} />
+    <Lorem reps={{ times: 4, lineBreak: true }} color={'yellow'} fontSize={'medium'} />
     <Lorem color={'blue'} fontSize={30} />
     <Lorem color={'rgb(154,67,123)'} fontSize={'large'} />
   </div>,
