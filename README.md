@@ -13,7 +13,7 @@
 
 | Property |      Description      |      Type     | Required |
 |----------|:---------------------:|:-------------:|:--------:|
-| times    | amount of repetitions |     number    |    NO    |
+| reps     | amount of repetitions |     shape     |    NO    |
 | color    |       text color      |     string    |    NO    |
 | fontSize |       font size       | string/number |    NO    |
 
@@ -26,7 +26,7 @@ import Lorem from 'react-lorem/Lorem.jsx';
 render(
   <div>
     <Lorem />
-    <Lorem times={2} color={'#FFAADD'} fontSize={'small'} />
+    <Lorem reps={{ times: 4, lineBreak: true }} color={'#FFAADD'} fontSize={'small'} />
     <Lorem color={'blue'} fontSize={30} />
     <Lorem color={'rgb(154,67,123)'} fontSize={'large'} />
   </div>,

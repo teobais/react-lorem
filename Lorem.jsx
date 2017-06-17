@@ -16,7 +16,7 @@ export default class Lorem extends Component {
      * be added for each intermediate occurence of the repetitions.
      */
     reps: PropTypes.shape({
-      times: PropTypes.number,
+      times: PropTypes.number.isRequired, // if reps is provided, then times is required
       lineBreak: PropTypes.bool
     })
   };
