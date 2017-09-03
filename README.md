@@ -15,12 +15,6 @@ results to...
 
 [![https://gyazo.com/3a4a40b15c50f0f079fe701bb2a301c7](https://i.gyazo.com/3a4a40b15c50f0f079fe701bb2a301c7.gif)](https://gyazo.com/3a4a40b15c50f0f079fe701bb2a301c7)
   
-
-#### Features
-- ES6
-- Webpack
-- Babel
-
 ### Installation
 [![https://nodei.co/npm/react-lorem.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/react-lorem.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-lorem) [![NPM](https://nodei.co/npm-dl/react-lorem.png?months=6&height=2)](https://nodei.co/npm/react-lorem.js)
 
